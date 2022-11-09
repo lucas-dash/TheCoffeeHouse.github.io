@@ -266,6 +266,7 @@ header {
   position: absolute;
   top: 0;
   left: 100%;
+  margin-top: -30px;
 }
 
 .grid-container {
@@ -345,6 +346,7 @@ header {
   width: 100%;
   transition: all 500ms ease;
   background: linear-gradient(90deg, #222831 4.13%, #202020 61.3%);
+  margin-top: -30px;
 }
 
 .grid_hero_2 {
