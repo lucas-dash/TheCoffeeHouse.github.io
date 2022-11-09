@@ -129,7 +129,7 @@ nav .nav-links ul .open-hour-nav::after {
   transform: translateX(10px);
 }
 
-/* .hamburger:hover span:nth-child(2) {
+ .hamburger:hover span:nth-child(2) {
   transform: translateX(10px);
   background-color: #b4926e;
 }
@@ -141,7 +141,6 @@ nav .nav-links ul .open-hour-nav::after {
 .hamburger:hover span:nth-child(3) {
   transform: translateX(5px);
 }
-*/
 
 .hamburger.is-active span:nth-child(1) {
   transform: translate(0px, -2px) rotate(45deg);
@@ -268,7 +267,6 @@ header {
   position: absolute;
   top: 0;
   left: 100%;
-  margin-top: -30px;
 }
 
 .grid-container {
@@ -348,7 +346,6 @@ header {
   width: 100%;
   transition: all 500ms ease;
   background: linear-gradient(90deg, #222831 4.13%, #202020 61.3%);
-  margin-top: -30px;
 }
 
 .grid_hero_2 {
@@ -1525,6 +1522,16 @@ header {
   body {
     font-size: 14px;
   }
+   .hamburger:hover span:nth-child(2) {
+    transform: translateX(0px);
+  }
+  .hamburger:hover span:nth-child(1) {
+    transform: translateX(0px);
+  }
+  .hamburger:hover span:nth-child(3) {
+    transform: translateX(0px);
+  }
+  
   .banner {
     height: 180px;
     display: grid;
@@ -1593,6 +1600,7 @@ header {
   }
 }
 @media only screen and (max-width: 425px) {
+   
   .cta .cta-btn1,
 .cta .cta-btn2 {
     height: 45px;
