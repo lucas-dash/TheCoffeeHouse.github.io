@@ -127,7 +127,7 @@ nav .nav-links ul .open-hour-nav::after {
   transform: translateX(10px);
 }
 
-.hamburger:hover span:nth-child(2) {
+/* .hamburger:hover span:nth-child(2) {
   transform: translateX(10px);
   background-color: #b4926e;
 }
@@ -139,6 +139,7 @@ nav .nav-links ul .open-hour-nav::after {
 .hamburger:hover span:nth-child(3) {
   transform: translateX(5px);
 }
+*/
 
 .hamburger.is-active span:nth-child(1) {
   transform: translate(0px, -2px) rotate(45deg);
