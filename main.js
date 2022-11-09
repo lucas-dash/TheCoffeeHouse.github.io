@@ -14,7 +14,7 @@ hamburger.addEventListener("click", function (e) {
 });
 
 // ? ------- HERO SLIDER -----
-const secondHero = document.querySelector(".second-hero");
+const secondHero = document.querySelector(".hero-bg");
 const btn1 = document.querySelector("#first");
 const btn2 = document.querySelector("#second");
 
