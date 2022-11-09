@@ -1193,6 +1193,7 @@ header {
   color: #fffcf6;
   padding: 1.5rem 0;
   text-align: center;
+  text-decoration: none;
 }
 .contact .social-icons {
   text-align: center;
