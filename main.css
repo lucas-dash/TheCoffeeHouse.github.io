@@ -191,7 +191,7 @@ header {
 .waweHero {
   height: 100%;
   width: 100%;
-  background: url(/Image/waweHero4.svg);
+  background: url(Image/waweHero4.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
